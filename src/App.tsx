@@ -72,7 +72,7 @@ export default function App() {
               <h3 className="text-2xl font-serif mb-6">गणना विधि</h3>
               <ol className="space-y-4 text-lg leading-relaxed">
                 <li>① पलात्मक भभोग: {parseInt(ghati)} × 60 + {parseInt(pal)} = {res.bhabhogPal}</li>
-                <li>② चन्द्रगति: 48000 ÷ {res.bhabhogPal}</li>
+                <li>② चन्द्रगति: 280000 ÷ {res.bhabhogPal}</li>
                 <li>③ घटी = {res.ghati}; पल = {res.pal}; विपल = {res.vipal}</li>
                 <li>Final: {res.ghati} घटी {res.pal} पल {res.vipal} विपल</li>
               </ol>
